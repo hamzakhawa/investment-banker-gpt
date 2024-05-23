@@ -34,7 +34,7 @@ agent_executor = create_vectorstore_agent(
     verbose=True
 )
 
-st.title('💵 Augvestment - A tool to enhance your invesment process')
+st.title('💵 Augvestment')
 prompt = st.text_input("Ask about Meta's 2024 Q1 Earnings..." )
 
 if prompt:
